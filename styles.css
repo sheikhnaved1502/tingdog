@@ -1,0 +1,158 @@
+#title {
+    background-color: #ff4c68;
+
+}
+
+h1 {
+    font-family: "Montserrat-Black";
+    font-size: 3.5rem;
+}
+
+.container-fluid {
+    padding: 3% 10% 7%;
+}
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0px 18px;
+}
+
+.download {
+    margin: 5% 3% 5% 0;
+}
+
+.title-image {
+    width: 50%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
+
+}
+
+h2 {
+    color: #fff;
+    font-family: "Montserrat-Bold";
+    font-size: 2rem;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.pricing {
+    color: black;
+    font-family: "Montserrat";
+    font-size: 3rem;
+
+    line-height: 1.5;
+}
+
+h3 {
+    font-family: "Montserrat";
+
+}
+
+p {
+    color: grey;
+}
+
+
+#features {
+    padding: 5% 10%;
+    background-color: #fff;
+    position: relative;
+
+}
+
+.featurebox {
+    text-align: center;
+    padding: 3%;
+}
+
+.fonts {
+    color: #ef6172;
+    margin: 2rem;
+
+}
+
+.fonts:hover {
+    color: #ff4c68;
+}
+
+#testimonials {
+
+    text-align: center;
+    background-color: #ef6172;
+}
+
+.carousel-item {
+    padding: 7% 14%;
+}
+
+.testimonial-image {
+    width: 15%;
+    border-radius: 100%;
+    margin: 10px;
+}
+
+#press {
+    text-align: center;
+    background-color: #ef6172;
+    padding-bottom: 5%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.price {
+    padding: 3% 2%;
+}
+
+@media(max-width=1028px) {
+    .title-image {
+        position: static;
+        transform: rotate(0);
+    }
+
+    #title {
+        text-align: center;
+    }
+}
+
+#cta {
+    background-color: #ff4c68;
+    color: #fff;
+    font-size: 20px;
+    padding: 14% 28%;
+    font-family: "Montserrat-Black";
+    text-align: center;
+}
+
+.last {
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+#footer {
+    padding: 7% 14%;
+    text-align: center;
+
+}
+
+.font-footer {
+    margin: 10px 20px;
+}
