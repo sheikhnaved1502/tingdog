@@ -1,2 +1,1 @@
-# tingdog
-This my first non-working website
+TinDog Starting Files
